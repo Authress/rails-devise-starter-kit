@@ -17,6 +17,9 @@ bundle exec rails server
 
 ## Configuration
 
+### 0. Authress Account
+Just quickly hop over to the [Authress](https://authress.io/app/#/signup) to get a free account if you don't have one already.
+
 ### 1. Install Omniauth and Authress SDK
 
 Add to your Gemfile
