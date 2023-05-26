@@ -1,0 +1,12 @@
+<div style="display: flex; width: 100%; justify-content: center;">
+  <div>  
+    <h1>Hello from Authress!</h1>
+
+    <% if user_signed_in? %> 
+      <div> Welcome <%= current_user.email %> </div> 
+      <%= button_to "Sign out", destroy_user_session_path, method: :delete %> 
+    <% else %>
+      <%= button_to "Sign in with your Corporate identity using Authress", user_authress_omniauth_authorize_path, method: :post %>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+{
+    "cSpell.words": [
+        "Omni"
+    ],
+    "files.exclude": {
+        "**/vendor/*": true
+    }
+}
