@@ -68,8 +68,11 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
-    authress-sdk (2.0.35.0)
+    authress-sdk (2.0.36.0)
       json (~> 2.1, >= 2.1.0)
+      jwt
+      oauth2
+      omniauth-oauth2
       typhoeus (>= 1.4)
     bcrypt (3.1.18)
     bindex (0.8.1)
@@ -287,4 +290,4 @@ RUBY VERSION
    ruby 3.0.2p107
 
 BUNDLED WITH
-   2.4.9
+   2.4.13
