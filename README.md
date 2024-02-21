@@ -1,3 +1,7 @@
+<p id="main" align="center">
+  <img src="https://authress.io/static/images/linkedin-banner.png" alt="Authress media banner">
+</p>
+
 # Authress Starter Kit: Ruby Rails using Devise
 
 A repository that contains a Ruby on Rails example that uses [Authress](https://authress.io) via the Devise gem to login.
